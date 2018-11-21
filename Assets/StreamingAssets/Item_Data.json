@@ -1,0 +1,382 @@
+[
+  {
+    "id": 0,
+    "title": "식빵",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 10,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "이런 식빵",
+    "slug": "Bread",
+    "stackable": true
+  },
+  {
+    "id": 1,
+    "title": "고기",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 20,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "헹헹 고기당~",
+    "slug": "Meat",
+    "stackable": true
+  },
+  {
+    "id": 2,
+    "title": "오염된 고기",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 20,
+      "hp": -10,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "흐엑 오염된 고기닥…",
+    "slug": "Meat_Bad",
+    "stackable": true
+  },
+  {
+    "id": 3,
+    "title": "우주 식량",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "정직한 네이밍 무려 'FOOD'!",
+    "slug": "FoodCan",
+    "stackable": true
+  },
+  {
+    "id": 4,
+    "title": "오염된 물",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": -10,
+      "water": 20,
+      "oxyzen": 0
+    },
+    "description": "녹조 라떼인가?",
+    "slug": "Water_Bad",
+    "stackable": true
+  },
+  {
+    "id": 5,
+    "title": "물",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 30,
+      "oxyzen": 0
+    },
+    "description": "WA와-TER털!",
+    "slug": "Water",
+    "stackable": true
+  },
+  {
+    "id": 6,
+    "title": "에너지 결정",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "에너지 큐..브?",
+    "slug": "EnergyCube",
+    "stackable": true
+  },
+  {
+    "id": 7,
+    "title": "크리스탈",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "스타크래…어디서 보지 않았나..?",
+    "slug": "Cristal",
+    "stackable": true
+  },
+  {
+    "id": 8,
+    "title": "빨강 보석",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "빠알~간 보석이다",
+    "slug": "Gem_Red",
+    "stackable": true
+  },
+  {
+    "id": 9,
+    "title": "초록 보석",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "초오~록 보석이다",
+    "slug": "Gem_Green",
+    "stackable": true
+  },
+  {
+    "id": 10,
+    "title": "파랑 보석",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "파아~랑 보석이다",
+    "slug": "Gem_Blue",
+    "stackable": true
+  },
+  {
+    "id": 11,
+    "title": "일반 우주복",
+    "stats": {
+      "power": 0,
+      "defence": 100,
+      "speed": 0,
+      "O2contain": 100
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "그냥 우주복이다",
+    "slug": "Spacesuit",
+    "stackable": false
+  },
+  {
+    "id": 12,
+    "title": "강력한 우주복",
+    "stats": {
+      "power": 0,
+      "defence": 120,
+      "speed": 0,
+      "O2contain": 120
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "내 안에서 강한 힘이 솟아오른다…!",
+    "slug": "Spacesuit_Red",
+    "stackable": false
+  },
+  {
+    "id": 13,
+    "title": "무거운 우주복",
+    "stats": {
+      "power": 0,
+      "defence": 130,
+      "speed": -10,
+      "O2contain": 130
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "파호후 쿰척쿰척.",
+    "slug": "Spacesuit_Green",
+    "stackable": false
+  },
+  {
+    "id": 14,
+    "title": "가벼운 우주복",
+    "stats": {
+      "power": 0,
+      "defence": 70,
+      "speed": 10,
+      "O2contain": 100
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "그램의 기술력으로..만든 듯하다",
+    "slug": "Spacesuit_Blue",
+    "stackable": false
+  },
+  {
+    "id": 15,
+    "title": "일반 기관총",
+    "stats": {
+      "power": 100,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "두두두두다다다다",
+    "slug": "MachineGun",
+    "stackable": false
+  },
+  {
+    "id": 16,
+    "title": "강력한 기관총",
+    "stats": {
+      "power": 130,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "투투투투타타타타",
+    "slug": "MachineGun_Red",
+    "stackable": false
+  },
+  {
+    "id": 17,
+    "title": "무거운 기관총",
+    "stats": {
+      "power": 150,
+      "defence": 0,
+      "speed": -10,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "퉁퉁퉁퉁탕탕탕탕",
+    "slug": "MachineGun_Green",
+    "stackable": false
+  },
+  {
+    "id": 18,
+    "title": "가벼운 기관총",
+    "stats": {
+      "power": 70,
+      "defence": 0,
+      "speed": 10,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "둥둥둥둥당당당당",
+    "slug": "MachineGun_Blue",
+    "stackable": false
+  },
+  {
+    "id": 19,
+    "title": "가방",
+    "stats": {
+      "power": 0,
+      "defence": 0,
+      "speed": 0,
+      "O2contain": 0
+    },
+    "lifestats": {
+      "hungry": 0,
+      "hp": 0,
+      "water": 0,
+      "oxyzen": 0
+    },
+    "description": "(가)방가방가~",
+    "slug": "HandGun",
+    "stackable": false
+  }
+]

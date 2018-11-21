@@ -14,15 +14,13 @@ public class Camera : MonoBehaviour {
 
 	void Start() {
 		tr = GetComponent<Transform>();
+		target = GameManager.gm.mainPlayer.GetComponent<Transform>();
 	}
 
 	void LateUpdate() {
-		target = GameManager.gm.mainPlayer.GetComponent<Transform>();
-
-		tr.position = target.position - (Quaternion.Euler(0, 45, 0) * Vector3.forward * dist) + (Vector3.up * height);
-
+		tr.position = target.position
+			- (Quaternion.Euler(0, 45, 0) * Vector3.forward * dist) 
+			+ (Vector3.up * height);
 		tr.LookAt(target);
 	}
-
-
 }
